@@ -7,7 +7,6 @@
 /**
  * This function gets users address and shows it back to user.
  */
-
 function enterClicked() {
   // input
   const userStreetNumber = parseInt(document.getElementById("number-entered").value)
@@ -17,4 +16,3 @@ function enterClicked() {
   document.getElementById("address").innerHTML =
     "Your info is: " + streetName + " " + userStreetNumber + "."
 }
-
